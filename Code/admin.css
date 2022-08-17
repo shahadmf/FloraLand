@@ -1,0 +1,323 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ecede8;
+}
+nav {
+  background-color: #c6ccc0;
+}
+.nav-items {
+  justify-content: center;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+.nav-items:nth-child(1),
+.nav-items:nth-child(2),
+.nav-items:nth-child(3) {
+  margin-left: 410px;
+}
+
+.nav-items img {
+  width: 10%;
+  cursor: pointer;
+}
+.nav-items .logo {
+  width: 11%;
+}
+.nav-items .cart {
+  width: 50%;
+}
+.nav-items .logout-img {
+  width: 30px;
+}
+.nav-items .logout {
+  position: absolute;
+  right: 20px;
+  top: 38px;
+}
+.nav-items .user h6 {
+  font-size: 11px;
+}
+.nav-items li a {
+  color: black;
+  font-size: 17.5px;
+}
+.nav-items li {
+  transition: 0.3s ease-out;
+}
+.nav-items .effect:hover {
+  transform: scale(1.1);
+  color: black;
+}
+#slogan .container {
+  height: 85vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(26, 25, 25, 0.4),
+      rgba(26, 25, 25, 0.4)
+    ),
+    url(img/tropicalleaf.png);
+  background-size: cover;
+}
+#slogan .slogan-content {
+  padding: 10px;
+  height: 30vh;
+}
+#slogan .slogan-content h4 {
+  font-size: 60px;
+  font-weight: normal;
+  color: whitesmoke;
+  font-family: "David Libre", serif;
+}
+
+#slogan .slogan-content h1 {
+  font-size: 35px;
+  margin-top: 10px;
+  color: whitesmoke;
+  margin-bottom: 50px;
+  font-weight: lighter;
+}
+
+#slogan .slogan-button {
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  outline: 0;
+  cursor: pointer;
+  background-color: #253528;
+  color: whitesmoke;
+  border-radius: 50px;
+  border: 2px solid whitesmoke;
+  transition: 0.3s ease;
+}
+#slogan .slogan-button:hover {
+  border: none;
+}
+#first .container {
+  height: 77vh;
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.22);
+  margin-top: 50px;
+}
+#first .left {
+  height: 70%;
+  width: 40%;
+  margin-left: 70px;
+}
+#first .left h1 {
+  font-size: 50px;
+  font-weight: 300;
+  font-family: "David Libre", serif;
+}
+#first .left h1 span {
+  color: teal;
+  font-weight: lighter;
+  font-family: "David Libre", serif;
+}
+#first .left p {
+  margin-top: 20px;
+  font-size: 17px;
+}
+.button {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+#first .right {
+  height: 90%;
+  width: 50%;
+  margin-left: 15%;
+}
+#first .right img {
+  width: 80%;
+}
+#second .container {
+  width: 90%;
+  height: 70vh;
+  margin-top: 5%;
+  margin-left: 9%;
+}
+#second .title {
+  font-size: 26px;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 0.2em;
+}
+#second .product-container {
+  margin-top: 25px;
+  display: flex;
+}
+#second .product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 410px;
+  margin-right: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 5px #0000002c;
+  position: relative;
+  transition: 0.5s ease;
+}
+#second .product-card img {
+  width: 250px;
+  height: 350px;
+  cursor: pointer;
+}
+#second .product-img {
+  width: 100%;
+  height: 300;
+}
+#second .card-btn {
+  position: absolute;
+  padding: 6px 10px;
+  bottom: 15px;
+  left: 58%;
+  text-transform: capitalize;
+  border: 1px solid black;
+  outline: none;
+  background: none;
+  transition: 0.3s ease;
+}
+#second .card-btn:hover {
+  background-color: black;
+  color: white;
+}
+#second .product-card:hover {
+  transform: scale(1.1);
+}
+#second .card-name {
+  margin-left: 10px;
+  font-size: 16px;
+}
+#second .price {
+  position: absolute;
+  right: 87%;
+  font-weight: lighter;
+  padding-top: 1px;
+  bottom: 10px;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+}
+hr {
+  width: 80%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #6d6c6c;
+  margin: 0 auto;
+  padding: 0;
+}
+.row {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.col {
+  flex-basis: 25%;
+  margin-bottom: 30px;
+}
+.col:nth-child(3),
+.col:nth-child(1) {
+  flex-basis: 10%;
+}
+.title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.title span {
+  color: teal;
+}
+.copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+form {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #6d6c6c;
+}
+form input {
+  width: 100%;
+  background: transparent;
+  color: #6d6c6c;
+  border: 0;
+  outline: none;
+  padding: 5px;
+}
+form button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+form button img {
+  width: 90%;
+}
+.col2-txt {
+  margin-bottom: 20px;
+}
+.social-icons {
+  display: flex;
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+.pages {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.pages li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.pages li a {
+  color: black;
+}

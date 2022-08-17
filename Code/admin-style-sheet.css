@@ -1,0 +1,197 @@
+/*MANAGE PRODUCTS PAGE STYLE DONE BY FATIMA M. ALNASSER, 2190003750, CS MAJGOR LEVEL 8 GROUP 1.*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #ecede8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 10%;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.22);
+  background-color: #c6ccc0;
+}
+
+.logo {
+  width: 9%;
+  height: 9%;
+  position: relative;
+  left: 110px;
+}
+
+.searchbar {
+  display: inline-flex;
+}
+
+.searchbar input {
+  flex-grow: 1;
+  padding: 10px;
+  outline: none;
+  border: 1.5px solid #8ba888;
+  border-radius: 5px 0 0 5px;
+  background: #ecede8;
+  transition: background 0.25s, box-shadow 0.25s;
+}
+
+.searchbar input:focus {
+  background: white;
+  box-shadow: #d8dad1;
+}
+
+.search_button {
+  width: 5em;
+  background-color: #8ba888;
+  outline: none;
+  border: 1.5px solid #8ba888;
+  border-radius: 0 5px 5px 0;
+  margin-right: 10px;
+}
+
+.back_button {
+  background-color: #c6ccc0;
+  border: 0;
+}
+
+.back_button:hover {
+  transform: scale(1.1);
+  color: black;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.panel_container {
+  min-height: 70vh;
+  background: white;
+  margin: 3em;
+  width: 80%;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+}
+
+.panel_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 1px grey solid;
+}
+
+a {
+  text-decoration: none;
+}
+
+.add_button {
+  background: white;
+  color: black;
+  text-align: center;
+  border: 1px black solid;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.add_button:hover {
+  background: black;
+  color: white;
+}
+
+table {
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  left: 1%;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.edit_button {
+  background: #8ba888;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.edit_button:hover {
+  background: green;
+  color: white;
+}
+
+.delete_button {
+  background: grey;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.delete_button:hover {
+  background: crimson;
+  color: white;
+}
+
+.centerd {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+form {
+  display: inline-flex;
+}
+
+footer p {
+  text-align: center;
+  background-color: #c6ccc0;
+  padding: 5px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.22);
+}
+
+.update {
+  color: red;
+  display: inline-flex;
+}
+
+.tinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 7px 3px 7px;
+  margin: 0px 2.5em 15px 2em;
+  border-top: 1px solid black;
+}
+
+.search_button:hover {
+  color: white;
+}
